@@ -12,7 +12,6 @@ class RateLimiter:
         self.requests[user] = [
             t for t in self.requests[user] if now - t < self.window
         ]
-
         if len(self.requests[user]) < self.limit:
             self.requests[user].append(now)
             return True
