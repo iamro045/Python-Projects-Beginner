@@ -3,7 +3,7 @@ import requests
 
 urls = [
     "https://example.com/file1",
-    "https://example.com/file2"
+    "https://example.com/file2",
 ]
 
 def download(url):
@@ -11,7 +11,7 @@ def download(url):
     filename = url.split("/")[-1]
     with open(filename, "wb") as f:
         f.write(r.content)
-    print(f"⬇️ Downloaded {filename}")
+    print(f" Downloaded {filename}")
 
 threads = []
 
