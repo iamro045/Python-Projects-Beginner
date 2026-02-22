@@ -4,6 +4,8 @@ import requests
 urls = [
     "https://example.com/file1",
     "https://example.com/file2",
+    "https://example.com/file3",
+    "https://example.com/file4",
 ]
 
 def download(url):
