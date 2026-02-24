@@ -22,6 +22,14 @@ def start_server():
     server.listen(5)
     print("Server running at http://localhost:8081")
 
+    while True:
+        client, _ = server.accept()
+        request = client.recv(1024).decode()
+        path = request.split(" ")[1]
+
+        response = routes.get(path, lambda: "HTTP/1.1 404\n\nNot Found")()
+        client.send(response.encode())
+        client.close()
 
 
 start_server()
