@@ -44,7 +44,7 @@ class ExpenseTracker:
 tracker = ExpenseTracker()
 
 while True:
-    print("\n1. Add Expense\n2. View Expenses\n3. Category Summary\n4. Exit")
+    print("\n1. Add Expenses:\n2. View Expenses:\n3. Category Summary:\n4. Exit :")
     choice = input("Choose: ")
 
     if choice == "1":
