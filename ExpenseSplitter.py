@@ -2,7 +2,8 @@ people = ["Rohit", "Amit", "Neha"]
 expenses = {
     "Rohit": 1200,
     "Amit": 800,
-    "Neha": 1000
+    "Neha": 1000,
+    "Bhumika" : 4500
 }
 
 total = sum(expenses.values())
