@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "your_api_key_here"
+API_KEY = "api_key"
 base = input("Base currency (e.g., USD): ").upper()
 target = input("Target currency (e.g., INR): ").upper()
 amount = float(input("Amount: "))
@@ -13,3 +13,4 @@ if data["result"] == "success":
     print(f"{amount} {base} = {amount * rate} {target}")
 else:
     print("Invalid currency or API problem")
+
