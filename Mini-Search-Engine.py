@@ -1,7 +1,8 @@
 documents = {
     1: "python is a great programming language",
     2: "python is used for data science",
-    3: "machine learning uses python"
+    3: "machine learning uses python",
+    4: "deep learning uses Python"
 }
 
 index = {}
