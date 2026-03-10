@@ -3,7 +3,7 @@ import datetime as dt
 import smtplib
 
 # 1. Setup - Update these with your info
-MY_EMAIL = "your_email@gmail.com"
+MY_EMAIL = "rohitshinde7922@gmail.com"
 MY_PASSWORD = "your_app_password"
 
 today = dt.datetime.now()
