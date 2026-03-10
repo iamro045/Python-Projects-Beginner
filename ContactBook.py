@@ -15,7 +15,7 @@ def save(data):
 
 contacts = load()
 
-name = input("Enter name: ")
+name = input("Enter name & Surname: ")
 phone = input("Enter phone: ")
 contacts[name] = phone
 save(contacts)
