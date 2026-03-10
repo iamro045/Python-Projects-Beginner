@@ -10,4 +10,5 @@ a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 op = input("Enter operator (+,-,*,/): ")
 
-print("Result:", calculate(a, b, op))
+print("Result is:", calculate(a, b, op))
+
