@@ -1,8 +1,8 @@
 import socket
 
-target = input("Enter target host: ")
+target = input("Enter target host : ")
 
-print("Scanning ports...")
+print("Scanning the ports ⏳...")
 
 for port in range(20, 1025):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
