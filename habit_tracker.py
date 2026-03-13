@@ -30,4 +30,4 @@ streak = len(habits[habit_name])
 
 save(habits)
 
-print(f"🔥 Current streak for '{habit_name}': {streak} days")
+print(f"🔥 Current streak of '{habit_name}': {streak} days")
