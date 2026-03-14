@@ -1,7 +1,7 @@
 FILE = "notes.txt"
 
 def add_note():
-    note = input("Write your note: ")
+    note = input("Write your note here: ")
     with open(FILE, "a") as f:
         f.write(note + "\n")
     print("Note saved!")
